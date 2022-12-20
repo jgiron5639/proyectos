@@ -1,0 +1,1037 @@
+/* estilos login */
+
+.cuerpo{
+    background-image: url(../imagenes/territorium.png);
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 130px;
+}
+
+.imglogin{
+    width: 150px;
+    height: 150px;
+    margin-left: 160px;
+}
+
+.inputLogin{
+    border-radius: 5px;
+    margin-left: 150px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.boton:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.boton{
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    margin-left: 200px;
+    border-color: black;
+    color:white;
+    background-color: #172AA4;
+}
+
+.formulario{
+    height: 375px;
+    width: 475px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+/* Fin estilos login */
+
+/* Estilos pagina principal */
+
+.coord{
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+
+.logo{
+width:60px;
+height: 60px;
+}
+
+.opciones{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.conf{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.icono{
+    width:13px;
+    height: 13px;
+}
+
+.salir{
+    border-color: #9AB575;
+    box-shadow: 2px 2px 2px black;
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.salir:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #9AB575; /* Green */
+}
+
+.CN{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 18px;
+    padding-left: 100px;
+}
+
+.CN_aprendiz{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    padding-left: 500px;
+}
+
+/* coordinador */
+
+.tablaC1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    top: 50%;
+    margin-top: -50px;
+    
+}
+
+.tablaC2{
+    padding: 12px;
+}
+
+.HeadC{
+    color: white;
+    background-color: #5eb319;
+    border-bottom: solid 5px #406801;
+}
+
+.BodyC:nth-child(even){
+    background-color: #ddd;
+}
+
+.solicitud{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Fin estilos coordinador */
+
+/* Estilos Pagina desercion */
+
+.inicioDeser{
+    margin-left: 40px;
+}
+
+.deserApren{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    border-radius: 2px;
+}
+
+.deserApren_select{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    border-radius: 2px;
+    width: 204px;
+}
+
+.Deser1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    border-radius: 2px;
+    
+}
+
+.botonDeser{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+}
+
+.desercion{
+    margin-top: 35px;
+}
+
+.table_desercion{
+background-color: #172AA4;}
+
+
+/* Fin estilos pagina desercion */
+
+/* Estilos formulario usuarios */
+
+.RegistrarUser{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+}
+
+
+.inputRegUser{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    border-radius: 2px;
+}
+
+.inputRegUser_select{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    border-radius: 2px;
+    width: 204px;
+}
+
+.Registrar{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    border-radius: 2px;
+    padding-top: 4px;
+}
+
+.botonRegistrar{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+
+/* fin estilos formulario usuario */
+
+/* Estilos formulario aprendiz */
+
+.formularioAprendiz{
+    height: 0px;
+    background-color: cadetblue;
+}
+
+.A1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+.pAprendiz{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    border-radius: 2px;
+}
+
+.inputAprendiz{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    border-radius: 2px;
+    
+}
+.inputAprendiz_select{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    border-radius: 2px;
+    width: 206px;
+}
+
+.botonFormA{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+/* Fin estilos formulario aprendiz */
+
+/* Estilo lista aprendiz */
+.listaAprendiz{
+    margin-left: 480px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+.FormAprendizC{
+    color: white;
+    background-color: #5eb319;
+    border-bottom: solid 5px #406801;
+}
+
+.TablaListaA{
+    padding: 5px;
+}
+
+.BodyA:nth-child(even){
+    background-color: #ddd;
+}
+
+.tituloAprendiz{
+    margin-left: 800px;
+    margin-top: 80px;
+}
+
+/* Fin estilos lista aprendiz */
+
+
+/* estilo lista matricula */
+
+.tablaMatricula{
+    margin-left: 400px;
+    margin-top: 10px;
+    margin-right: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+
+}
+
+.matHead{
+    color: white;
+    background-color: #5eb319;
+    border-bottom: solid 5px #406801;
+}
+
+.tablaListaM{
+    padding: 5px;
+}
+
+.BodyM:nth-child(even){
+    background-color: #ddd;
+}
+
+.TituloMatricula{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 590px;
+    
+    
+}
+
+/* Fin estilo lista matricula */
+
+/* estilo formulario matricula */
+
+.formMat{
+    height: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    padding-top: 50px;
+    border-radius: 2px;
+}
+
+.botonMat{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+/* fin estilo formulario matricula */
+
+/* estilos lista ficha */
+
+.tablaFicha{
+    margin-left: 500px;
+    margin-right: 100px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+.ficHead{
+    color: white;
+    background-color: #5eb319;
+    border-bottom: solid 5px #406801;
+}
+
+.BodyF:nth-child(even){
+    background-color: #ddd;
+}
+
+/* fin estilos lista ficha */
+
+/* estilo formulario matricula */
+
+.formfic{
+    height: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    padding-top: 50px;
+    border-radius: 2px;
+}
+
+.formfic_select{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3px;
+    border-radius: 2px;
+    width: 204px; 
+}
+
+.ListaFic{
+    margin-top: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 650px;
+    
+}
+
+.botonFic{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+/* fin estilo formulario matricula */
+
+/* Estilo listado causa */
+
+.tablaCausa{
+    margin-left: 600px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+.cauHead{
+    color: white;
+    background-color: #5eb319;
+    border-bottom: solid 5px #406801;
+}
+
+.TituloCausas{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 750px;
+}
+/* Fin estilo listado causa */
+
+/* estilo formulario causa */
+.formCausa{
+    height: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    padding-top: 50px;
+    border-radius: 2px;
+}
+ .formCausa_select{
+    width: 206px;
+ }
+.botonCausa{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+/* Fin estilo formulario causa */
+
+/* estilo formulario centro */
+
+.formCen{
+    height: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    padding-top: 50px;
+    border-radius: 2px;
+}
+.formCen_select{
+    width: 206px;
+}
+
+.botonLista, .botonCau{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+/* fin estilo formulario centro */
+
+/* estilos listado ciudad */
+
+.tablaCiudad{
+    margin-left: 500px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+.ciuHead{
+    color: white;
+    background-color: #5eb319;
+    border-bottom: solid 5px #406801;
+}
+
+.ListaCiu{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 625px;
+}
+
+.tablaListaCiu{
+    padding: 5px;
+}
+
+.BodyCiu:nth-child(even){
+    background-color: #ddd;
+}
+
+/* fin estilo listado ciudad */
+
+/* estilo fomulario ciudad */
+
+.formCiu{
+    height: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    padding-top: 50px;
+    border-radius: 2px;
+}
+
+.formCiu_select{
+    width: 206px;
+}
+
+.botonCiu{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+/* fin estilo formulario ciudad */
+
+/* estilo listado departamento */
+
+.tablaDepa{
+    margin-left: 675px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+.depHead{
+    color: white;
+    background-color: #5eb319;
+    border-bottom: solid 5px #406801;
+}
+
+.BodyDepa:nth-child(even){
+    background-color: #ddd;
+}
+
+.tablaListaDepa{
+    padding: 5px;
+}
+
+.ListaDepa{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 625px;
+}
+
+/* Fin estilo listado departamento */
+
+/* estilo formulario departamento */
+
+.formDepa{
+    height: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    padding-top: 50px;
+    border-radius: 2px;
+}
+
+.botonDepa{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+/* Fin estilo formulario departamento */
+
+/* estilo listado programa */
+
+.tablaPro{
+    margin-left: 500px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+.proHead{
+    color: white;
+    background-color: #5eb319;
+    border-bottom: solid 5px #406801;
+}
+
+.BodyPro:nth-child(even){
+    background-color: #ddd;
+}
+
+.tablaListaPro{
+    padding: 5px;
+}
+
+.ListaPro{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 650px;
+}
+
+/* fin estilo listado programa */
+
+/* estilos formulario programa */
+
+.formPro{
+    height: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    padding-top: 50px;
+    border-radius: 2px;
+}
+
+.botonPro{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+/* Fin estilos formulario programa */
+
+/* estilo lista Rh */
+
+.tablaRh{
+    margin-left: 635px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+.RhHead{
+    color: white;
+    background-color: #5eb319;
+    border-bottom: solid 5px #406801;
+}
+
+.BodyRh:nth-child(even){
+    background-color: #ddd;
+}
+
+.tablaListaRh{
+    padding: 5px;
+}
+
+.ListaRh{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 600px;
+}
+
+
+/* Fin estilos lista Rh */
+
+/* estilo formulario Rh */
+
+.FormRh{
+    height: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    padding-top: 50px;
+    border-radius: 2px;
+}
+
+.botonRh{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+/* Fin estilos formulario Rh */
+
+/* estilo listado Tipos id */
+
+.tablaId{
+    margin-left: 800px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+.IdHead{
+    color: white;
+    background-color: #5eb319;
+    border-bottom: solid 5px #406801;
+}
+
+.BodyId:nth-child(even){
+    background-color: #ddd;
+}
+
+.tablaListaId{
+    padding: 5px;
+}
+
+.ListaId{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 870px;
+}
+
+/* Fin estilo listado Tipos id */
+
+/* estilo formulario tipo id */
+
+.FormId{
+    height: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    margin-top: 50px;
+    border-radius: 2px;
+}
+
+.botonId{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+/* fin estilo formulario id  */
+
+
+
+/* estilos paginas modificar */
+
+.formModificar{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.botonVolver{
+    text-decoration: none;
+}
+
+
+
+
+/* Fin estilos paginas modificar */
+
+/*Estilo de notificacion de error*/
+
+.bad{
+    clear: both;
+    width: 40%;
+    margin: 0px auto;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    background: rgb(253, 137, 137);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 400px;
+    left: 40px;
+ 
+}
+
+.bad_aprendiz{
+    clear: both;
+    width: 30%;
+    margin: 0px auto;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    background: rgb(253, 137, 137);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 800px;
+    left: 40px;
+}
+
+.bad_ficha{
+    clear: both;
+    width: 30%;
+    margin: 0px auto;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    background: rgb(253, 137, 137);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 600px;
+    left: 40px;
+}
+
+.bad_centro{
+    clear: both;
+    width: 30%;
+    margin: 0px auto;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    background: rgb(253, 137, 137);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 650px;
+    left: 40px;
+}
+
+.bad_ciudad{
+    clear: both;
+    width: 30%;
+    margin: 0px auto;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    background: rgb(253, 137, 137);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 530px;
+    left: 40px;
+}
+
+.bad_usuarios{
+    clear: both;
+    width: 30%;
+    margin: 0px auto;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    background: rgb(253, 137, 137);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 665px;
+    left: 40px;
+}
+
+/*Fin estilo de notificacion de error*/
+
+/*Inicio estilo notificacion ok*/
+.ok{
+    clear: both;
+    width: 40%;
+    margin: 0px auto;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    background: rgb(108, 221, 108);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 400px;
+    left: 40px;
+ 
+}
+
+.ok_aprendiz{
+    clear: both;
+    width: 30%;
+    margin: 0px auto;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    background: rgb(108, 221, 108);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 755px;
+    left: 40px;
+}
+
+.ok_ficha{
+    clear: both;
+    width: 30%;
+    margin: 0px auto;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    background: rgb(108, 221, 108);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 600px;
+    left: 40px;
+}
+
+.ok_centro{
+    clear: both;
+    width: 30%;
+    margin: 0px auto;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    background: rgb(108, 221, 108);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 650px;
+    left: 40px;
+}
+
+.ok_ciudad{
+    clear: both;
+    width: 30%;
+    margin: 0px auto;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    background: rgb(108, 221, 108);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 530px;
+    left: 40px;
+}
+
+.ok_usuarios{
+    clear: both;
+    width: 30%;
+    margin: 0px auto;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    background: rgb(108, 221, 108);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 665px;
+    left: 40px;
+
+}
+
+.ok_desercion{
+    clear: both;
+    width: 30%;
+    margin: 0px auto;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    background: rgb(108, 221, 108);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 610px;
+    left: 30px;
+}
+
+.ok_matricula{
+    clear: both;
+    width: 20%;
+    margin: 0px auto;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    background: rgb(108, 221, 108);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 450px;
+    left: 30px;
+}
+
+.ok_causa{
+    clear: both;
+    width: 20%;
+    margin: 0px auto;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    background: rgb(108, 221, 108);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+
+.ok_programa{
+    clear: both;
+    width: 20%;
+    margin: 0px auto;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    background: rgb(108, 221, 108);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 320px;
+    left: 30px;
+}
+
+.ok_causa_desercion{
+    clear: both;
+    width: 20%;
+    margin: 0px auto;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    background: rgb(108, 221, 108);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 550px;
+    left: 30px;
+}
+/*Datos*/
+
+.formularioDatos{
+    height: 0px;
+    background-color: cadetblue;
+}
+
+.A1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+.datos{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    border-radius: 2px;
+}
+
+.inputAprendiz{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    border-radius: 2px;
+    
+}
+.datos_select{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    border-radius: 2px;
+    width: 206px;
+}
+
+.botonDatos{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
