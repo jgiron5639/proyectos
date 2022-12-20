@@ -3,6 +3,8 @@ Proyecto formativo final del Sena. plataforma web para que los aprendices del se
 
 Se divide en dos roles, el del aprendiz que genera su petición y el del coordinador quien acepta o rechaza la petición en el mismo portal web.
 
+En el repositorio se encuentra la base de datos del proyecto.
+
 Portal como aprendiz:
 usser: 1010045032
 contra: 1010045032
